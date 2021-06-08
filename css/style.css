@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
   background: #14131a;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 140%;
   color: rgba(255, 255, 255, 0.5);
   background: linear-gradient(
       0deg,
@@ -109,4 +110,63 @@ body {
   line-height: 16px;
   color: #ffffff;
   margin-left: 10px;
+}
+
+.about {
+  display: flex;
+  align-items: top;
+}
+.about-col2 {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0;
+}
+.group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.title2 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+}
+.names-list {
+  padding: 0;
+  list-style: none;
+}
+.film-description2 {
+  width: 423px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.actore-names {
+  display: flex;
+  margin-top: 20px;
+}
+.name-column:not(:last-child) {
+  margin-right: 60px;
+}
+.names {
+  margin-bottom: 5px;
+}
+.about-col1 {
+  margin-right: 165px;
+}
+.film-poster {
+  margin-right: 30px;
+}
+.about-group {
+  display: flex;
+  flex-direction: column;
+}
+.s1 {
+  margin-top: 10px;
 }
