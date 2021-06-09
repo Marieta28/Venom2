@@ -16,6 +16,11 @@ body {
     ),
     url("../img/bg.jpg") no-repeat center top;
 }
+.blood {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .container {
   max-width: 1140px;
   margin: auto;
@@ -69,6 +74,7 @@ body {
 .film-logo {
   width: 834.35px;
   height: 206.21px;
+  z-index: 99;
 }
 .film-description {
   width: 423px;
@@ -169,4 +175,11 @@ body {
 }
 .s1 {
   margin-top: 10px;
+}
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  z-index: 99;
 }
